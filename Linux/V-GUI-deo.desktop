@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=V-GUI-deo
+Comment=Zum herunterladen von Videos von YouTube und anderen Plattformen
+Exec=bash /Pfad/zu/V-GUI-deo.sh
+Icon=/Pfad/zum/Icon.png
+Terminal=true
+Type=Application
+Categories=Network;
