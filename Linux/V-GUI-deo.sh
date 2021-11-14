@@ -2,12 +2,12 @@
 
 if which zenity >/dev/null;
 then echo "Zenity ist installiert"
-else echo "Zenity ist nicht installiert. Um Aud-GUI-o verwenden zu können, muss Zenity installiert werden." && xterm -e "sudo zypper ln  -l -y zenity"
+else echo "Zenity ist nicht installiert. Um V-GUI-deo verwenden zu können, muss Zenity installiert werden." && xterm -e "sudo zypper ln  -l -y zenity"
 fi
 
 if which youtube-dl >/dev/null;
 then echo "youtube-dl ist installiert"
-else echo "youtube-dl ist nicht installiert. Um Aud-GUI-o verwenden zu können, muss youtube-dl installiert werden." && xterm -e "sudo zypper ln  -l -y youtube-dl"
+else echo "youtube-dl ist nicht installiert. Um V-GUI-deo verwenden zu können, muss youtube-dl installiert werden." && xterm -e "sudo zypper ln  -l -y youtube-dl"
 fi
 
 #!/bin/bash
